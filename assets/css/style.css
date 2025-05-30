@@ -6,10 +6,48 @@
     background-attachment: fixed;
 }
 .card img {
+  background-image: url(../fondo_carta.jpg);
   object-fit: contain;
   height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #message {
   font-weight: bold;
 }
+.logotipo {
+  height: 150px;
+}
+
+.card-body {
+  background-color: orange;
+  border-style: solid;
+  border-color: orangered;
+  box-shadow: inset 5px 5px 10px orangered;
+}
+
+.card {
+  background: none;
+  box-shadow:0px 0px 10px 0px black;
+}
+
+.button {
+  background-color: orangered;
+  border-radius: 16px;
+  border: 2px;
+  border-style: solid;
+  border-color: red;
+  box-shadow: 0px 0px 8px 0px black;
+}
+.search {
+  width: 94%;
+  background-color: orange;
+  border-radius: 8px;
+  border: 2px;
+  border-style: solid;
+  border-color: orangered;
+  box-shadow: 0px 0px 8px 0px black;
+}
+

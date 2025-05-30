@@ -10,15 +10,22 @@
 
 <body class="backg">
   <div class="container py-4">
-    <h1 class="text-center mb-4">Dragon Ball</h1>
-    <div class="input-group mb-4">
-      <input id="searchInput" type="text" class="form-control" placeholder="Buscar personaje por nombre..." />
-      <button id="searchButton" class="btn btn-primary">Buscar</button>
+    <div class="d-flex justify-content-center">
+      <img class="logotipo" src="assets/logotipo.png" alt="logotipo">
+    </div>
+    <div class="searchbar">
+      <input id="searchInput" type="text" class="search" placeholder="Buscar personajes..." />
+      <button id="searchButton" class="button">Buscar</button>
     </div>
     <div id="message" class="text-center text-danger mb-3"></div>
     <div id="results" class="row g-4"></div>
   </div>
-
+  <div id="loader" class="text=center my-4" style="display: none;">
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+  
   <script src="assets/js/script.js"></script>
 </body>
 </html>
