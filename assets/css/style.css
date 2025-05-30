@@ -1,3 +1,7 @@
-.bg-nav {
-    background-color: #10002b;
+.backg {
+    background-image: url("../dragon-ball-landscape-scene-background-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
