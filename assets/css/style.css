@@ -5,3 +5,11 @@
     background-position: center;
     background-attachment: fixed;
 }
+.card img {
+  object-fit: contain;
+  height: 300px;
+}
+
+#message {
+  font-weight: bold;
+}
